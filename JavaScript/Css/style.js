@@ -1,15 +1,19 @@
 /*
 ------------------------------------
-Purpose:
-Styles the html element with a Id tag
+
+Changes the style of a element by Id html attribute.
+
 ------------------------------------
 Rules:
-All the parameters has to be strings
-Always camelCase
-------------------------------------*/
+All the parameters has to be strings, Correct: "10" | Wrong: 10 
+Always camelCase for property Correct: "fontFamily" | Wrong: "font-family"
+------------------------------------
+Example of styling
+style("myCube", backgroundColor, "green");
+------------------------------------
+
+*/
 function style(id, property, value){
 	document.getElementById(id).style[property] = value;
 }
 
-//Example of styling, see that i am camelcasing background_color property
-//style("myCube", backgroundColor, "green");
