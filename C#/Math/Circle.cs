@@ -20,7 +20,7 @@ namespace app
         //Calculates the circles circumference.
         public static double circumference(double radius)
         {
-            return (2 * Math.PI) * radius;
+            return (Math.PI * 2) * radius;
         }
     }
 }
