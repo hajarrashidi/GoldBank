@@ -1,0 +1,1 @@
+var fruit = "I am fruit variable";
