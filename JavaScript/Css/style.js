@@ -1,7 +1,7 @@
 /*
 ------------------------------------
 
-Changes the style of a element by Id html attribute.
+Changes the style of a html element by Id.
 
 ------------------------------------
 Rules:
