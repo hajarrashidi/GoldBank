@@ -1,5 +1,5 @@
-//Insert a array of Integers to the method
-public static int[] SortArray(int[] array)
+//Insert a array of Integers to the method and it will be sorted with bubble sort.
+public static int[] BubbleSortArray(int[] array)
 {
     int length = array.Length;
 
