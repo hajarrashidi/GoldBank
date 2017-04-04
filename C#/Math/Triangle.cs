@@ -11,9 +11,9 @@ namespace app
         }
 
         //Calculates the circumference of a triangle.
-        public static double Circumference(double a, double b, double c)
+        public static double Circumference(double side1, double side2, double side3)
         {
-            return a + b + c;
+            return side1 + side2 + side3;
         }
         
     }
