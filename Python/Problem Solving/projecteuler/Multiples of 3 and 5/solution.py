@@ -1,3 +1,5 @@
+#https://github.com/hajarrashidi/GoldBank
+
 # Total sum
 sum = 0
 
