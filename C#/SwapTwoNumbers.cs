@@ -9,8 +9,7 @@ namespace ConsoleApp1
         {
             int firstNumber;
             int secodnNubmer;
-            int tempNumber;
-
+            
             Console.Write("Input the First Number: ");
             firstNumber = int.Parse(Console.ReadLine());
             Console.Write("Intput the Second Number: ");
