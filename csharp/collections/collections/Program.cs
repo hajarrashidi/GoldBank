@@ -6,8 +6,10 @@ namespace collections
     {
         static void Main(string[] args)
         {
-            ArrayExample arrayExample = new ArrayExample();
-
+           // ArrayExample arrayExample = new ArrayExample();
+           ListExample listExample = new ListExample();  
+           
+           
         }
     }
 }

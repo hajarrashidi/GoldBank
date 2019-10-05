@@ -41,12 +41,12 @@ namespace collections
 
             CsvReader reader = new CsvReader(filePath);
 
-            People[] people = reader.GetPeople(1000);
-
-            foreach(People p in people)
-            {
-                Console.WriteLine(p.FirstName);
-            }
+//            People[] people = reader.GetAllPeople(1000);
+//
+//            foreach(People p in people)
+//            {
+//                Console.WriteLine(p.FirstName);
+//            }
 
 
             #endregion

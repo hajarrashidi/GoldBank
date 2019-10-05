@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 
 namespace collections
 {
@@ -11,18 +12,21 @@ namespace collections
             this._csvFilePath = csvFilePath;
         }
 
-        public People[] GetPeople(int numberOfPeople)
+        public List<People> GetAllPeople()
         {
-            People[] people = new People[numberOfPeople];
+            List<People> people = new List<People>();
 
             using (StreamReader sr = new StreamReader(_csvFilePath))
             {
                 sr.ReadLine();
 
-               for (int i = 0; i < numberOfPeople; i++)
+                while ((sr.ReadLine()) != null)
                 {
-                    people[i] = ReadPeopleFromCsvLine(sr.ReadLine());
-                }
+                   people.Add(ReadPeopleFromCsvLine(sr.ReadLine()));
+                } 
+                
+                   
+                
             }
             
             return people;
